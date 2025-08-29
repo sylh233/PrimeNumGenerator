@@ -25,7 +25,9 @@ int main()
     write_p(ai_ptr,block,"p.txt");
 
     delete[] ai_ptr;
+
     top += block;
+
     while(top<=max)
     {
         int arr_base[block];

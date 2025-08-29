@@ -39,17 +39,18 @@ void gen_p(int arr[],const int top,int block,const char file[])
     fin.seekg(22,ios::beg);//从开头的题目后开始读取
     
     while(fin >> input)
-    {
+    {   int nb = 2;
         if (input > sqrt(top))
             break;
-        int nb = (top-block)/input;
+        if(input)
+        {
+            nb = (top-block)/input;
+        }
         for(int n = (nb>2?nb:2);input*n <= top;n++)
         {
-            for(int i = 0;i <= 1000;i++)
-            {
-                if(arr[i]==input*n)
-                    arr[i]=0;
-            }
+            int posi = input*n-(top-block);//使用计算当前数字在数组里的位置，直接对元素处理而不是迭代查找，增加速度
+            if(posi > 0)
+                arr[posi]=0;
         }
         
     }
