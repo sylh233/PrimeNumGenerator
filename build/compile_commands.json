@@ -1,0 +1,8 @@
+[
+{
+  "directory": "Y:/Cpp_work/proj_PNumGen/build",
+  "command": "F:\\mingw64\\bin\\g++.exe  @CMakeFiles/PNumGen.dir/includes_CXX.rsp -g -o CMakeFiles\\PNumGen.dir\\src\\main.cpp.obj -c Y:\\Cpp_work\\proj_PNumGen\\src\\main.cpp",
+  "file": "Y:/Cpp_work/proj_PNumGen/src/main.cpp",
+  "output": "CMakeFiles/PNumGen.dir/src/main.cpp.obj"
+}
+]

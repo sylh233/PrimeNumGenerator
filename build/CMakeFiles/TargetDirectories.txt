@@ -1,0 +1,3 @@
+Y:/Cpp_work/proj_PNumGen/build/CMakeFiles/PNumGen.dir
+Y:/Cpp_work/proj_PNumGen/build/CMakeFiles/edit_cache.dir
+Y:/Cpp_work/proj_PNumGen/build/CMakeFiles/rebuild_cache.dir
