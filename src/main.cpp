@@ -8,7 +8,7 @@ int main()
 
     const int top = 100;
     int arr_base[top];
-    for(int i = 0,j=i;i < j+top;i++)
+    for(int i = 2,j=0;i < j+top;i++)
     {
         arr_base[i-j]=i;
     }
@@ -16,15 +16,15 @@ int main()
     {
         int num = arr_base[i];
         int last = arr_base[top-1];
-        for(int n = num,c = 2;n*c < last;c++)
+        for(int n = num,c = 2;n*c < last&&n!=0;c++)
         {
-            arr_base[n*c] = '/0';
-            //cout << n << ":" << n*c <<endl;
+            arr_base[n*c] = 0;
+            cout << n << ":" << n*c <<endl;
         }
     }
     for(int i = 0,j=i;i < j+top;i++)
     {
-        if(arr_base[i]!='/0')
+        if(arr_base[i]!=0)
             cout << arr_base[i] << " ";
     }
     write_p(arr_base,top,"p.txt");
