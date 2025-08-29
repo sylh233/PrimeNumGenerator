@@ -12,7 +12,7 @@ void write_p(int arr[],const int top,const char file[])
     int el_c = 1;
     for(int * i = arr;i < arr+top ;i++)
     {
-        if(*i!='/0'&&*i!=0)
+        if(*i != 0)
         {
             fout << *i << " ";
             if(el_c < el)
