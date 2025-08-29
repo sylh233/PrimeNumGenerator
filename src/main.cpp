@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <cmath>
+#include <ctime>
 #include "pgen.h"
 
 int main()
@@ -11,6 +12,8 @@ int main()
     cout << "Input the sup: ";
     cin >> max;
 
+    clock_t beg = clock();
+    double sec;
     const int block = 1000;
     int top=block;
 
@@ -41,7 +44,10 @@ int main()
 
         top += block;
     }
-    cout << "Complete! Any input to exit.";
+    clock_t endt = clock();
+    sec = double(endt-beg)/CLOCKS_PER_SEC;
+    cout << "Complete! Any input to exit(Used "
+    << sec << " s).";
     cin.get();cin.get();
     return 0;
 }

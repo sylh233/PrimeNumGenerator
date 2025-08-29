@@ -123,4 +123,10 @@ CMakeFiles/PNumGen.dir/src/main.cpp.obj: \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
  F:/mingw64/x86_64-w64-mingw32/include/math.h \
+ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ctime \
+ F:/mingw64/x86_64-w64-mingw32/include/time.h \
+ F:/mingw64/x86_64-w64-mingw32/include/_timeval.h \
+ F:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
+ F:/mingw64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ F:/mingw64/x86_64-w64-mingw32/include/pthread_time.h \
  Y:/Cpp_work/proj_PNumGen/include/pgen.h
