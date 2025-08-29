@@ -71,6 +71,7 @@ CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: Y:/Cpp_work/proj_PNumGen/src/fuc.cpp \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/initializer_list \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
+  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
@@ -403,6 +404,8 @@ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd:
 
+F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:
+
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new:
@@ -494,5 +497,3 @@ F:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 F:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 Y:/Cpp_work/proj_PNumGen/src/main.cpp:
-
-F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream:
