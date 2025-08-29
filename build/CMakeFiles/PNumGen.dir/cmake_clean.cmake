@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/PNumGen.dir/src/fuc.cpp.obj"
+  "CMakeFiles/PNumGen.dir/src/fuc.cpp.obj.d"
   "CMakeFiles/PNumGen.dir/src/main.cpp.obj"
   "CMakeFiles/PNumGen.dir/src/main.cpp.obj.d"
   "Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe"

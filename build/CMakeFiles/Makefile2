@@ -84,12 +84,12 @@ clean: CMakeFiles/PNumGen.dir/clean
 CMakeFiles/PNumGen.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PNumGen.dir\build.make CMakeFiles/PNumGen.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PNumGen.dir\build.make CMakeFiles/PNumGen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=Y:\Cpp_work\proj_PNumGen\build\CMakeFiles --progress-num=1,2 "Built target PNumGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=Y:\Cpp_work\proj_PNumGen\build\CMakeFiles --progress-num=1,2,3 "Built target PNumGen"
 .PHONY : CMakeFiles/PNumGen.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PNumGen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start Y:\Cpp_work\proj_PNumGen\build\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start Y:\Cpp_work\proj_PNumGen\build\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/PNumGen.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start Y:\Cpp_work\proj_PNumGen\build\CMakeFiles 0
 .PHONY : CMakeFiles/PNumGen.dir/rule
@@ -101,7 +101,7 @@ PNumGen: CMakeFiles/PNumGen.dir/rule
 # codegen rule for target.
 CMakeFiles/PNumGen.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PNumGen.dir\build.make CMakeFiles/PNumGen.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=Y:\Cpp_work\proj_PNumGen\build\CMakeFiles --progress-num=1,2 "Finished codegen for target PNumGen"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=Y:\Cpp_work\proj_PNumGen\build\CMakeFiles --progress-num=1,2,3 "Finished codegen for target PNumGen"
 .PHONY : CMakeFiles/PNumGen.dir/codegen
 
 # clean rule for target.

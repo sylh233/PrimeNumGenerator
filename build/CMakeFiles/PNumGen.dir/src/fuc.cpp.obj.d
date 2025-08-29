@@ -1,12 +1,12 @@
-CMakeFiles/PNumGen.dir/src/main.cpp.obj: \
- Y:\Cpp_work\proj_PNumGen\src\main.cpp \
- F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iostream \
+CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: \
+ Y:\Cpp_work\proj_PNumGen\src\fuc.cpp \
+ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
+ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
+ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
+ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
- F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
- F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ios \
- F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/iosfwd \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/memoryfwd.h \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/postypes.h \
@@ -113,10 +113,9 @@ CMakeFiles/PNumGen.dir/src/main.cpp.obj: \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/locale_facets.tcc \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
+ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ostream \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
- F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/fstream \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/codecvt.h \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \

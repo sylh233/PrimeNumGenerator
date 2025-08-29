@@ -135,6 +135,30 @@ PNumGen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PNumGen.dir\build.make CMakeFiles/PNumGen.dir/build
 .PHONY : PNumGen/fast
 
+src/fuc.obj: src/fuc.cpp.obj
+.PHONY : src/fuc.obj
+
+# target to build an object file
+src/fuc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PNumGen.dir\build.make CMakeFiles/PNumGen.dir/src/fuc.cpp.obj
+.PHONY : src/fuc.cpp.obj
+
+src/fuc.i: src/fuc.cpp.i
+.PHONY : src/fuc.i
+
+# target to preprocess a source file
+src/fuc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PNumGen.dir\build.make CMakeFiles/PNumGen.dir/src/fuc.cpp.i
+.PHONY : src/fuc.cpp.i
+
+src/fuc.s: src/fuc.cpp.s
+.PHONY : src/fuc.s
+
+# target to generate assembly for a file
+src/fuc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PNumGen.dir\build.make CMakeFiles/PNumGen.dir/src/fuc.cpp.s
+.PHONY : src/fuc.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -169,6 +193,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... PNumGen
+	@echo ... src/fuc.obj
+	@echo ... src/fuc.i
+	@echo ... src/fuc.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
