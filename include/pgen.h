@@ -1,6 +1,6 @@
 #ifndef PGEN
 #define PGEN
 
-void txt_to_p(int base);
+void write_p(int arr[],const int top,const char file[]="p.txt");
 
 #endif
