@@ -6,22 +6,40 @@
 int main()
 {
     using namespace std;
+    ofstream fout;
+    int max = 10000;
+    cout << "Input the sup: ";
+    cin >> max;
 
-    const int top = 1000;
-    int arr_base[top] ;
-    for(int i = 0,j=i;i < j+top;i++)
+    const int block = 1000;
+    int top=block;
+
+    //初始化
+    int * ai_ptr = new int [block];
+
+    gen_arr(ai_ptr,top,block);
+    gen_p(ai_ptr,top,block,"init.txt");
+    fout.open("p.txt");
+    fout << "Prime Number Table: " << endl;
+    fout.close();
+    write_p(ai_ptr,block,"p.txt");
+
+    delete[] ai_ptr;
+    top += block;
+    while(top<=max)
     {
-        arr_base[i-j]=i;
-    }
+        int arr_base[block];
 
-    int last = arr_base[top-1];
-    for(int i = 2;i < sqrt(top);i++)
-    {
-        int num = arr_base[i];
-        for(int n = num,c = 2;(n*c <= last)&&(n*c!=0);c++)
-            arr_base[n*c] = 0;
+        gen_arr(arr_base,top,block);
 
+        cout << "Now Position: " << top <<endl;
+
+        gen_p(arr_base,top,block,"p.txt");
+        write_p(arr_base,block,"p.txt");
+
+        top += block;
     }
-    write_p(arr_base,top,"p.txt");
+    cout << "Complete! Any input to exit.";
+    cin.get();cin.get();
     return 0;
 }

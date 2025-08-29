@@ -53,6 +53,7 @@ CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: Y:/Cpp_work/proj_PNumGen/src/fuc.cpp \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
@@ -110,6 +111,7 @@ CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: Y:/Cpp_work/proj_PNumGen/src/fuc.cpp \
   F:/mingw64/x86_64-w64-mingw32/include/limits.h \
   F:/mingw64/x86_64-w64-mingw32/include/locale.h \
   F:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  F:/mingw64/x86_64-w64-mingw32/include/math.h \
   F:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   F:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
   F:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
@@ -318,8 +320,6 @@ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/fstream.tcc:
 
-F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
-
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator.h:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hash_bytes.h:
@@ -378,6 +378,10 @@ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno:
 
+F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h:
+
+F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
+
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h:
@@ -386,11 +390,11 @@ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cwctype:
 
-F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/debug/assertions.h:
-
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h:
+
+F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h:
 
@@ -501,5 +505,3 @@ F:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 F:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 Y:/Cpp_work/proj_PNumGen/src/main.cpp:
-
-F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:
