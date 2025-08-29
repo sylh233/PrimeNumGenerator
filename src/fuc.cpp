@@ -48,7 +48,7 @@ void gen_p(int arr[],const int top,int block,const char file[])
         }
         for(int n = (nb>2?nb:2);input*n <= top;n++)
         {
-            int posi = input*n-(top-block);//使用计算当前数字在数组里的位置，直接对元素处理而不是迭代查找，增加速度
+            int posi = input*n-(top-block);//使用计算当前数字在数组里的位置，直接对元素处理而不是迭代查找，增加速度(超快)
             if(posi > 0)
                 arr[posi]=0;
         }
