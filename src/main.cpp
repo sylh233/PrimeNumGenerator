@@ -9,7 +9,7 @@ int main()
     using namespace std;
     ofstream fout;
     int max = 10000;
-    cout << "Input the sup: ";
+    cout << "Input the upper(Multiple of 1000): ";
     cin >> max;
 
     clock_t beg = clock();
@@ -26,6 +26,7 @@ int main()
     fout << "Prime Number Table: " << endl;
     fout.close();
     write_p(ai_ptr,block,"p.txt");
+    cout << "Now Position: "<<1000<<endl;
 
     delete[] ai_ptr;
 
