@@ -177,6 +177,7 @@ CMakeFiles/PNumGen.dir/src/main.cpp.obj: Y:/Cpp_work/proj_PNumGen/src/main.cpp \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
+  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio \
   F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib \
@@ -234,6 +235,7 @@ CMakeFiles/PNumGen.dir/src/main.cpp.obj: Y:/Cpp_work/proj_PNumGen/src/main.cpp \
   F:/mingw64/x86_64-w64-mingw32/include/limits.h \
   F:/mingw64/x86_64-w64-mingw32/include/locale.h \
   F:/mingw64/x86_64-w64-mingw32/include/malloc.h \
+  F:/mingw64/x86_64-w64-mingw32/include/math.h \
   F:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
   F:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h \
   F:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
@@ -424,6 +426,8 @@ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/system_error:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/type_traits:
 
+F:/mingw64/x86_64-w64-mingw32/include/math.h:
+
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
 
 F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
@@ -497,3 +501,5 @@ F:/mingw64/x86_64-w64-mingw32/include/wchar.h:
 F:/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 Y:/Cpp_work/proj_PNumGen/src/main.cpp:
+
+F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath:

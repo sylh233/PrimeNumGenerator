@@ -179,6 +179,7 @@ CMakeFiles/PNumGen.dir/src/main.cpp.obj
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cerrno
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale
+ F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cmath
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdint
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdio
  F:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib
@@ -236,6 +237,7 @@ CMakeFiles/PNumGen.dir/src/main.cpp.obj
  F:/mingw64/x86_64-w64-mingw32/include/limits.h
  F:/mingw64/x86_64-w64-mingw32/include/locale.h
  F:/mingw64/x86_64-w64-mingw32/include/malloc.h
+ F:/mingw64/x86_64-w64-mingw32/include/math.h
  F:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h
  F:/mingw64/x86_64-w64-mingw32/include/sdks/_mingw_directx.h
  F:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h
