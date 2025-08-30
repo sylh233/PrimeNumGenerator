@@ -21,8 +21,9 @@ int main()
     int * ai_ptr = new int [block];
 
     gen_arr(ai_ptr,top,block);
+    int arrf[]={2,3,5,7,11,13,17,19,23,29,31,37};
     cout << "Now Position: "<<1000<<endl;
-    gen_p(ai_ptr,top,block,"init.txt");
+    gen_p(ai_ptr,top,block,arrf);
     fout.open("p.txt");
     fout << "Prime Number Table: " << endl;
     fout.close();

@@ -3,6 +3,7 @@
 
 void write_p(int [],const int ,const char []="p.txt");
 void gen_p(int [],int,int,const char []);
+void gen_p(int [],int,int,int []);//一个用于初始化的重载
 void gen_arr(int [],int,int);
 
 //测试用
