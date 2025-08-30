@@ -63,17 +63,16 @@ void gen_p(int arr[],const int top,int block,int arrf[])
 {//在数组里踢出合数//重载版，用于初始化
     using namespace std;
     int input;
-    int carrf = sizeof(arrf)/sizeof(arrf[0]);
-    for(int i = 0;i <= carrf;i++)
+    for(int i = 0;i <= 11;i++)
     {
         input=arrf[i];
+        cout << input << endl;
         int nb = 2;
-        if (input > sqrt(top))
+        if (input >= sqrt(top))
             break;
         if(input)
         {
             nb = (top-block)/input;//增加乘数大小，逼近更快
-            nb--;
         }
         for(int n = (nb>2?nb:2);input*n <= top;n++)
         {
