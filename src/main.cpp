@@ -21,13 +21,13 @@ int main()
     int * ai_ptr = new int [block];
 
     gen_arr(ai_ptr,top,block);
+    cout << "Now Position: "<<1000<<endl;
     gen_p(ai_ptr,top,block,"init.txt");
     fout.open("p.txt");
     fout << "Prime Number Table: " << endl;
     fout.close();
     write_p(ai_ptr,block,"p.txt");
-    cout << "Now Position: "<<1000<<endl;
-
+    
     delete[] ai_ptr;
 
     top += block;
