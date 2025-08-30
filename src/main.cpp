@@ -8,8 +8,37 @@ int main()
 {
     using namespace std;
     ofstream fout;
-    int max = 10000;
+    int block = 1000;
+    cout << "Shift Modes(More fast more memory): " << endl
+    << "fast(1) " << "middle(2) " << "slow(3) "<<endl;
+    int mode;
+    while(!(cin >> mode))
+        {
+            cout << "Null! Retry: ";
+            cin.clear();
+            while(cin.get()!='\n')
+                continue;
+        }
+    cout << "Switch ";
+    switch (mode)
+    {
+    case 1:
+        block = 50000;
+        cout << "fast";
+        break;
+    case 2:
+        block = 10000;
+        cout << "middle";
+        break;
+    case 3:
+    default:
+        block = 1000;
+        cout << "slow";
+        break;
+    }
+    cout << " Mode." << endl;
     bool cont = true;
+    int max = 50000;
     while(cont)
     {   
         cout << "Input the upper: ";
@@ -23,7 +52,6 @@ int main()
         
         clock_t beg = clock();
         double sec;
-        const int block = 1000;
         int top=block;
 
         //初始化
@@ -31,7 +59,7 @@ int main()
 
         gen_arr(ai_ptr,top,block);
         int arrf[]={2,3,5,7,11,13,17,19,23,29,31,37};
-        cout << "Now Position: "<<1000<<endl;
+        cout << "Now Position: "<<block<<endl;
         gen_p(ai_ptr,top,block,arrf);
         fout.open("p.txt");
         fout << "Prime Number Table: " << endl;
@@ -59,10 +87,10 @@ int main()
         sec = double(endt-beg)/CLOCKS_PER_SEC;
         cout << "Complete! Used "
         << sec << " s." <<endl
-        << "Input 'e' to exit. ";
+        << "Input 'c' to continue. ";
         
         cin.get();
-        if(cin.get()=='e')
+        if(cin.get()!='c')
             cont = false;
         cout << endl;
     }

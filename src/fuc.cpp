@@ -66,7 +66,6 @@ void gen_p(int arr[],const int top,int block,int arrf[])
     for(int i = 0;i <= 11;i++)
     {
         input=arrf[i];
-        cout << input << endl;
         int nb = 2;
         if (input >= sqrt(top))
             break;
