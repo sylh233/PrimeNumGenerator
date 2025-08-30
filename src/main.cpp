@@ -70,10 +70,9 @@ int main()
         delete[] ai_ptr;
 
         top += block;
-        int * arr_base;
+        int arr_base [block];
         while(top<=max)
         {
-            arr_base = new int [block];
 
             gen_arr(arr_base,top,block);
 
@@ -83,8 +82,9 @@ int main()
             write_p(arr_base,block,"p.txt");
 
             top += block;
+
         }
-        delete [] arr_base;
+        
         clock_t endt = clock();
         sec = double(endt-beg)/CLOCKS_PER_SEC;
         cout << "Complete!The result in p.txt. Used "
