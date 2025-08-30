@@ -39,6 +39,7 @@ int main()
     cout << " Mode." << endl;
     bool cont = true;
     int max = 50000;
+    int * ai_ptr;
     while(cont)
     {   
         cout << "Input the upper: ";
@@ -55,7 +56,7 @@ int main()
         int top=block;
 
         //初始化
-        int * ai_ptr = new int [block];
+        ai_ptr = new int [block];
 
         gen_arr(ai_ptr,top,block);
         int arrf[]={2,3,5,7,11,13,17,19,23,29,31,37};
@@ -69,10 +70,10 @@ int main()
         delete[] ai_ptr;
 
         top += block;
-
+        int * arr_base;
         while(top<=max)
         {
-            int arr_base[block];
+            arr_base = new int [block];
 
             gen_arr(arr_base,top,block);
 
@@ -83,9 +84,10 @@ int main()
 
             top += block;
         }
+        delete [] arr_base;
         clock_t endt = clock();
         sec = double(endt-beg)/CLOCKS_PER_SEC;
-        cout << "Complete! Used "
+        cout << "Complete!The result in p.txt. Used "
         << sec << " s." <<endl
         << "Input 'c' to continue. ";
         
