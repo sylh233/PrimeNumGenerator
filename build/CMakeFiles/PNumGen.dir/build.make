@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = Y:\CMake\bin\cmake.exe
+CMAKE_COMMAND = C:\tools\CMake\bin\cmake.exe
 
 # The command to remove a file.
-RM = Y:\CMake\bin\cmake.exe -E rm -f
+RM = C:\tools\CMake\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = Y:\Cpp_work\proj_PNumGen
+CMAKE_SOURCE_DIR = D:\Emacs\home\works\primeGen\PrimeNumGenerator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = Y:\Cpp_work\proj_PNumGen\build
+CMAKE_BINARY_DIR = D:\Emacs\home\works\primeGen\PrimeNumGenerator\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PNumGen.dir/depend.make
@@ -73,33 +73,33 @@ CMakeFiles/PNumGen.dir/codegen:
 
 CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: CMakeFiles/PNumGen.dir/flags.make
 CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: CMakeFiles/PNumGen.dir/includes_CXX.rsp
-CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: Y:/Cpp_work/proj_PNumGen/src/fuc.cpp
+CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: D:/Emacs/home/works/primeGen/PrimeNumGenerator/src/fuc.cpp
 CMakeFiles/PNumGen.dir/src/fuc.cpp.obj: CMakeFiles/PNumGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=Y:\Cpp_work\proj_PNumGen\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PNumGen.dir/src/fuc.cpp.obj"
-	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PNumGen.dir/src/fuc.cpp.obj -MF CMakeFiles\PNumGen.dir\src\fuc.cpp.obj.d -o CMakeFiles\PNumGen.dir\src\fuc.cpp.obj -c Y:\Cpp_work\proj_PNumGen\src\fuc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Emacs\home\works\primeGen\PrimeNumGenerator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PNumGen.dir/src/fuc.cpp.obj"
+	C:\tools\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PNumGen.dir/src/fuc.cpp.obj -MF CMakeFiles\PNumGen.dir\src\fuc.cpp.obj.d -o CMakeFiles\PNumGen.dir\src\fuc.cpp.obj -c D:\Emacs\home\works\primeGen\PrimeNumGenerator\src\fuc.cpp
 
 CMakeFiles/PNumGen.dir/src/fuc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PNumGen.dir/src/fuc.cpp.i"
-	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Y:\Cpp_work\proj_PNumGen\src\fuc.cpp > CMakeFiles\PNumGen.dir\src\fuc.cpp.i
+	C:\tools\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Emacs\home\works\primeGen\PrimeNumGenerator\src\fuc.cpp > CMakeFiles\PNumGen.dir\src\fuc.cpp.i
 
 CMakeFiles/PNumGen.dir/src/fuc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PNumGen.dir/src/fuc.cpp.s"
-	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Y:\Cpp_work\proj_PNumGen\src\fuc.cpp -o CMakeFiles\PNumGen.dir\src\fuc.cpp.s
+	C:\tools\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Emacs\home\works\primeGen\PrimeNumGenerator\src\fuc.cpp -o CMakeFiles\PNumGen.dir\src\fuc.cpp.s
 
 CMakeFiles/PNumGen.dir/src/main.cpp.obj: CMakeFiles/PNumGen.dir/flags.make
 CMakeFiles/PNumGen.dir/src/main.cpp.obj: CMakeFiles/PNumGen.dir/includes_CXX.rsp
-CMakeFiles/PNumGen.dir/src/main.cpp.obj: Y:/Cpp_work/proj_PNumGen/src/main.cpp
+CMakeFiles/PNumGen.dir/src/main.cpp.obj: D:/Emacs/home/works/primeGen/PrimeNumGenerator/src/main.cpp
 CMakeFiles/PNumGen.dir/src/main.cpp.obj: CMakeFiles/PNumGen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=Y:\Cpp_work\proj_PNumGen\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PNumGen.dir/src/main.cpp.obj"
-	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PNumGen.dir/src/main.cpp.obj -MF CMakeFiles\PNumGen.dir\src\main.cpp.obj.d -o CMakeFiles\PNumGen.dir\src\main.cpp.obj -c Y:\Cpp_work\proj_PNumGen\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Emacs\home\works\primeGen\PrimeNumGenerator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PNumGen.dir/src/main.cpp.obj"
+	C:\tools\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PNumGen.dir/src/main.cpp.obj -MF CMakeFiles\PNumGen.dir\src\main.cpp.obj.d -o CMakeFiles\PNumGen.dir\src\main.cpp.obj -c D:\Emacs\home\works\primeGen\PrimeNumGenerator\src\main.cpp
 
 CMakeFiles/PNumGen.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PNumGen.dir/src/main.cpp.i"
-	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E Y:\Cpp_work\proj_PNumGen\src\main.cpp > CMakeFiles\PNumGen.dir\src\main.cpp.i
+	C:\tools\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Emacs\home\works\primeGen\PrimeNumGenerator\src\main.cpp > CMakeFiles\PNumGen.dir\src\main.cpp.i
 
 CMakeFiles/PNumGen.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PNumGen.dir/src/main.cpp.s"
-	F:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S Y:\Cpp_work\proj_PNumGen\src\main.cpp -o CMakeFiles\PNumGen.dir\src\main.cpp.s
+	C:\tools\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Emacs\home\works\primeGen\PrimeNumGenerator\src\main.cpp -o CMakeFiles\PNumGen.dir\src\main.cpp.s
 
 # Object files for target PNumGen
 PNumGen_OBJECTS = \
@@ -109,17 +109,17 @@ PNumGen_OBJECTS = \
 # External object files for target PNumGen
 PNumGen_EXTERNAL_OBJECTS =
 
-Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe: CMakeFiles/PNumGen.dir/src/fuc.cpp.obj
-Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe: CMakeFiles/PNumGen.dir/src/main.cpp.obj
-Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe: CMakeFiles/PNumGen.dir/build.make
-Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe: CMakeFiles/PNumGen.dir/linkLibs.rsp
-Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe: CMakeFiles/PNumGen.dir/objects1.rsp
-Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe: CMakeFiles/PNumGen.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=Y:\Cpp_work\proj_PNumGen\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Y:\Cpp_work\proj_PNumGen\out\PNumGen.exe"
+D:/Emacs/home/works/primeGen/PrimeNumGenerator/out/PNumGen.exe: CMakeFiles/PNumGen.dir/src/fuc.cpp.obj
+D:/Emacs/home/works/primeGen/PrimeNumGenerator/out/PNumGen.exe: CMakeFiles/PNumGen.dir/src/main.cpp.obj
+D:/Emacs/home/works/primeGen/PrimeNumGenerator/out/PNumGen.exe: CMakeFiles/PNumGen.dir/build.make
+D:/Emacs/home/works/primeGen/PrimeNumGenerator/out/PNumGen.exe: CMakeFiles/PNumGen.dir/linkLibs.rsp
+D:/Emacs/home/works/primeGen/PrimeNumGenerator/out/PNumGen.exe: CMakeFiles/PNumGen.dir/objects1.rsp
+D:/Emacs/home/works/primeGen/PrimeNumGenerator/out/PNumGen.exe: CMakeFiles/PNumGen.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Emacs\home\works\primeGen\PrimeNumGenerator\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable D:\Emacs\home\works\primeGen\PrimeNumGenerator\out\PNumGen.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PNumGen.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/PNumGen.dir/build: Y:/Cpp_work/proj_PNumGen/out/PNumGen.exe
+CMakeFiles/PNumGen.dir/build: D:/Emacs/home/works/primeGen/PrimeNumGenerator/out/PNumGen.exe
 .PHONY : CMakeFiles/PNumGen.dir/build
 
 CMakeFiles/PNumGen.dir/clean:
@@ -127,6 +127,6 @@ CMakeFiles/PNumGen.dir/clean:
 .PHONY : CMakeFiles/PNumGen.dir/clean
 
 CMakeFiles/PNumGen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" Y:\Cpp_work\proj_PNumGen Y:\Cpp_work\proj_PNumGen Y:\Cpp_work\proj_PNumGen\build Y:\Cpp_work\proj_PNumGen\build Y:\Cpp_work\proj_PNumGen\build\CMakeFiles\PNumGen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Emacs\home\works\primeGen\PrimeNumGenerator D:\Emacs\home\works\primeGen\PrimeNumGenerator D:\Emacs\home\works\primeGen\PrimeNumGenerator\build D:\Emacs\home\works\primeGen\PrimeNumGenerator\build D:\Emacs\home\works\primeGen\PrimeNumGenerator\build\CMakeFiles\PNumGen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/PNumGen.dir/depend
 

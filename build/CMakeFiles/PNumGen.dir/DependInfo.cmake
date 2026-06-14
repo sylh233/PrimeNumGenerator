@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "Y:/Cpp_work/proj_PNumGen/src/fuc.cpp" "CMakeFiles/PNumGen.dir/src/fuc.cpp.obj" "gcc" "CMakeFiles/PNumGen.dir/src/fuc.cpp.obj.d"
-  "Y:/Cpp_work/proj_PNumGen/src/main.cpp" "CMakeFiles/PNumGen.dir/src/main.cpp.obj" "gcc" "CMakeFiles/PNumGen.dir/src/main.cpp.obj.d"
+  "D:/Emacs/home/works/primeGen/PrimeNumGenerator/src/fuc.cpp" "CMakeFiles/PNumGen.dir/src/fuc.cpp.obj" "gcc" "CMakeFiles/PNumGen.dir/src/fuc.cpp.obj.d"
+  "D:/Emacs/home/works/primeGen/PrimeNumGenerator/src/main.cpp" "CMakeFiles/PNumGen.dir/src/main.cpp.obj" "gcc" "CMakeFiles/PNumGen.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
